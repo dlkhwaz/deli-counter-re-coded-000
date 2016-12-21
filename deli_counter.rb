@@ -9,17 +9,16 @@ end
 def take_a_number(katz_deli, person)
   if katz_deli<<(person)
   puts "Welcome, #{person}. You are number #{katz_deli.size} in line."
-elsif
+else
   puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.size} in line."
 end
 end
 def now_serving(katz_deli)
   if katz_deli==[]
     puts "There is nobody waiting to be served!"
-elsif
+else
 puts "Currently serving #{katz_deli.first}."
 
 end
 katz_deli.shift
 end
-  
